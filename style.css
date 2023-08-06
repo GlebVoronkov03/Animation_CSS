@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 16px;
+}
+
 body{
     min-height: 100vh;
     background: #0c192c;
@@ -25,30 +29,30 @@ body{
 
 .bubbles span{
     position: relative;
-    width: 30px;
-    height: 30px;
+    width: 1.875rem;
+    height: 1.875rem;
     background: #4fc3dc;
-    margin: 0 4px;
+    margin: 0 0.25rem;
     border-radius: 50%;
-    box-shadow: 0 0 0 10px #4fc3dc40,
-    0 0 50px #4fc3fc,
-    0 0 100px #4fc3dc;
+    box-shadow: 0 0 0 0.625rem #4fc3dc40,
+    0 0 3.125rem #4fc3fc,
+    0 0 6.25rem #4fc3dc;
     animation: animate 15s linear infinite;
     animation-duration: calc(125s / var(--i));
 }
 
 .bubbles span:nth-child(2n){
     background: #ff2d75;
-    box-shadow: 0 0 0 10px #ff2d7540,
-                0 0 50px #ff2d75,
-                0 0 100px #ff2d75;
+    box-shadow: 0 0 0 0.625rem #ff2d7540,
+                0 0 3.125rem #ff2d75,
+                0 0 6.25rem #ff2d75;
 }
 
 .bubbles span:nth-child(3n){
     background: #edfd5f;
-    box-shadow: 0 0 0 10px #edfd5f40,
-                0 0 50px #edfd5f,
-                0 0 100px #edfd5f;
+    box-shadow: 0 0 0 0.625rem #edfd5f40,
+                0 0 3.125rem #edfd5f,
+                0 0 6.25rem #edfd5f;
 }
 
 @keyframes animate{
@@ -64,7 +68,7 @@ body{
 
 .text {
     color: #ffffff;
-    margin-top: 300px;
+    margin-top: 18.75rem;
     text-align: center;
     display: block;
 }
