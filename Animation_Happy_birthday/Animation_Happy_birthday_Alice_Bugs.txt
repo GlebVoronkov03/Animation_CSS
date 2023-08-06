@@ -1,1 +1,1 @@
-При ширене экрана меньше 1500px элименты анимации сжимаются
+When the screen width is less than 1500px, the animation elements are compressed
